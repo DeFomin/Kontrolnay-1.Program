@@ -18,7 +18,7 @@ Proverka_arr = 'ABCDEFGH123456789'
 
 a = Advanced()
 a.first()
-print('Выберите изначальную позицию Ладьи. Сначала буква, потом цифра.')
+print('Выберите изначальную позицию Ладьи. Сначала буква, потом цифра (с новой строки).')
 dano = []
 for i in range(2):
     var = input()
@@ -110,5 +110,5 @@ res_1 = R_down('0', '0', '0', str(input()), str(input()))
 res_1.display_wow()
 print()
 
-print('Конечная точка', *dano)
+print('Конечная точка', "".(dano)))
 print('Время окончания:', time.perf_counter() - t_start)
